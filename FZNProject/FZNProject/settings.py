@@ -83,12 +83,12 @@ WSGI_APPLICATION = 'FZNProject.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'dznproject',        #数据库名字
-        'USER': 'root',          #账号
-        'PASSWORD': 'root',      #密码
-        'HOST': '127.0.0.1',    #IP
-        'PORT': '3306'                   #端口
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'db_tpcc',        #数据库名字
+        'USER': 'joe2',          #账号
+        'PASSWORD': 'Bigdata@123',      #密码
+        'HOST': '123.60.211.73',    #IP
+        'PORT': '26000'                   #端口
     }
 }
 

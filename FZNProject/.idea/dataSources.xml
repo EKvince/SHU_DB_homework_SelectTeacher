@@ -17,5 +17,12 @@
       <jdbc-url>jdbc:mysql://127.0.0.1:3306/dznproject</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="postgres@123.60.211.73" uuid="b72bf317-9a4f-449b-ac97-056027cf2d03">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://123.60.211.73:26000/postgres</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
